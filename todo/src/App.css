@@ -1,0 +1,12 @@
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.App-inner-date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

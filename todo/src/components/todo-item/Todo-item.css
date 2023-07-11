@@ -1,0 +1,37 @@
+.todo-item{
+    display: flex;
+    height: 45px;
+}
+
+.todo-item-description-checked {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    font-size: 14px;
+    color: gray;
+    opacity: 0.4;
+    text-decoration-line: line-through;
+    white-space: nowrap;
+    overflow : auto;
+}
+
+.todo-item-description-unchecked {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    font-size: 14px;
+    color: black;
+    white-space: nowrap;
+    overflow : auto;
+}
+
+.todo-item-checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   width: 30px;
+}
+
+.todo-item-checkbox:hover {
+    cursor : pointer;
+}

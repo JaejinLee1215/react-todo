@@ -1,0 +1,24 @@
+.date {
+    display: flex;
+    width: 60px;
+    justify-content: space-between;
+}
+
+.date-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.day{
+    width: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.month{
+    font-size: 10px;
+}
+
+.year{
+    font-size: 10px;
+}
